@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- ===== SEO : JP primary / EN secondary ===== -->
+<title>EV SEA｜オーナー目線で選んだEVアクセサリー・車中泊・EV旅 | EV Lifestyle, Okinawa</title>
+<meta name="description" content="EV SEA は、オーナー目線で本当に使うものだけを厳選するEVライフスタイル・ブランド。テスラ対応アクセサリー、車中泊・EVキャンプ、沖縄EVドライブまで。｜EV SEA — curated EV accessories & travel gear for EV life in Japan. Tesla Model 3 / Y compatible." />
+<meta name="keywords" content="EVアクセサリー,テスラ アクセサリー,Model 3,Model Y,EV 車中泊,EV キャンプ,沖縄 EV ドライブ,EV 旅,EV accessories Japan,Tesla accessories,EV lifestyle,EV SEA" />
+<link rel="canonical" href="https://ev.nice.okinawa/" />
+<link rel="alternate" hreflang="ja" href="https://ev.nice.okinawa/" />
+<link rel="alternate" hreflang="en" href="https://ev.nice.okinawa/en/" />
+<link rel="alternate" hreflang="x-default" href="https://ev.nice.okinawa/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="EV SEA" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:title" content="EV SEA — for EV Life.｜オーナー目線で選んだEVアクセサリー" />
+<meta property="og:description" content="アクセサリーだけじゃない。EVと生きるために。テスラ対応アクセサリー、車中泊、EV旅。EV SEA, the EV lifestyle brand from Okinawa." />
+<meta property="og:url" content="https://ev.nice.okinawa/" />
+<meta property="og:image" content="https://ev.nice.okinawa/ogp.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="EV SEA — for EV Life." />
+<meta name="twitter:description" content="オーナー目線で選んだEVアクセサリー・車中泊・EV旅。Curated EV lifestyle, Okinawa." />
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"OnlineStore",
+  "name":"EV SEA",
+  "slogan":"for EV Life.",
+  "url":"https://ev.nice.okinawa/",
+  "image":"https://ev.nice.okinawa/ogp.jpg",
+  "description":"オーナー目線で選んだEVアクセサリー、車中泊・EVキャンプ装備、沖縄EVドライブまで。EV lifestyle brand from Okinawa, Japan.",
+  "inLanguage":["ja","en"],
+  "areaServed":{"@type":"Country","name":"Japan"},
+  "currenciesAccepted":"JPY",
+  "knowsLanguage":["ja","en"],
+  "brand":{"@type":"Brand","name":"EV SEA","slogan":"for EV Life."}
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --white:#FFFFFF;
+    --bg-alt:#F5F5F7;       /* Apple section gray */
+    --ink:#1D1D1F;          /* near-black text */
+    --ink-2:#6E6E73;
+    --ink-3:#86868B;
+    --hair:#D2D2D7;
+    --black:#0A0A0A;
+    --dark-2:#161618;
+    --dark-hair:#2A2A2D;
+    --on-dark:#F5F5F7;
+    --on-dark-2:#A1A1A6;
+    --r:20px;
+    --maxw:1200px;
+    --ease:cubic-bezier(.22,.61,.36,1);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--white);color:var(--ink);font-family:"Inter","Zen Kaku Gothic New",system-ui,sans-serif;font-weight:400;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden;letter-spacing:-.005em;}
+  a{color:inherit;text-decoration:none;}
+  .jp{font-family:"Zen Kaku Gothic New",sans-serif;}
+  .mono{font-family:"JetBrains Mono",monospace;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 32px;}
+  .eyebrow{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-3);}
+
+  .btn{display:inline-flex;align-items:center;gap:9px;font-family:"Inter",sans-serif;font-weight:500;font-size:15px;padding:13px 26px;border-radius:980px;border:1px solid transparent;cursor:pointer;transition:transform .3s var(--ease),background .3s,color .3s,border-color .3s,opacity .3s;background:var(--ink);color:#fff;}
+  .btn:hover{transform:translateY(-2px);}
+  .btn .arr{transition:transform .3s var(--ease);}
+  .btn:hover .arr{transform:translateX(4px);}
+  .btn-line{background:var(--white);color:var(--ink);border-color:var(--hair);}
+  .btn-line:hover{border-color:var(--ink);}
+  .btn-onDark{background:var(--white);color:var(--ink);}
+  .btn-onDark.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.34);}
+  .btn-onDark.ghost:hover{border-color:#fff;}
+  :focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:6px;}
+
+  /* ===== NAV ===== */
+  header.nav{position:fixed;top:0;left:0;right:0;z-index:80;background:rgba(255,255,255,.72);backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.06);transition:background .4s,color .4s,border-color .4s;}
+  header.nav.on-dark{background:rgba(10,10,10,.5);border-bottom-color:rgba(255,255,255,.08);color:#fff;}
+  .nav-in{display:flex;align-items:center;justify-content:space-between;height:58px;}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:19px;letter-spacing:.16em;}
+  .brand .hz{width:18px;height:18px;display:block;}
+  .nav-links{display:flex;align-items:center;gap:32px;}
+  .nav-links a{font-size:13.5px;font-weight:400;color:inherit;opacity:.7;transition:opacity .2s;}
+  .nav-links a:hover{opacity:1;}
+  .nav-right{display:flex;align-items:center;gap:16px;}
+  .lang{font-family:"JetBrains Mono",monospace;font-size:12px;display:flex;border:1px solid currentColor;border-radius:980px;overflow:hidden;opacity:.85;}
+  .lang a{padding:5px 10px;opacity:.55;transition:.2s;}
+  .lang a.on{background:currentColor;opacity:1;}
+  .lang a.on span{color:var(--white);}
+  header.nav.on-dark .lang a.on span{color:var(--black);}
+  .lang a:not(.on):hover{opacity:1;}
+  .menu-btn{display:none;background:none;border:none;cursor:pointer;padding:6px;color:inherit;}
+  .menu-btn span{display:block;width:22px;height:1.5px;background:currentColor;margin:5px 0;}
+
+  /* ===== HERO ===== */
+  .hero{position:relative;min-height:100vh;display:flex;align-items:center;background:var(--black);color:#fff;overflow:hidden;}
+  .hero-scene{position:absolute;inset:0;z-index:0;}
+  .hero-scene .sky{position:absolute;inset:0;background:linear-gradient(180deg,#070708 0%,#0B0C0E 42%,#1A1C20 55%,#0C0D0F 60%,#070708 100%);}
+  .hero-scene .horizon{position:absolute;left:0;right:0;top:54%;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.55),transparent);box-shadow:0 0 24px 2px rgba(255,255,255,.18);}
+  .hero-scene .sea{position:absolute;left:0;right:0;top:54%;bottom:0;background:linear-gradient(180deg,rgba(255,255,255,.05),transparent 40%);opacity:.5;}
+  .hero-scene .road{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:60%;height:46%;background:linear-gradient(180deg,transparent,rgba(255,255,255,.04));clip-path:polygon(46% 0,54% 0,82% 100%,18% 100%);}
+  .hero-scene .road::after{content:"";position:absolute;left:50%;top:0;bottom:0;width:2px;transform:translateX(-50%);background:repeating-linear-gradient(180deg,rgba(255,255,255,.5) 0 14px,transparent 14px 40px);mask-image:linear-gradient(180deg,transparent,#000 60%);}
+  .hero-scene .car{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);}
+  .hero-scene .vig{position:absolute;inset:0;background:radial-gradient(120% 80% at 50% 40%,transparent 40%,rgba(0,0,0,.6));}
+  .hero-in{position:relative;z-index:2;width:100%;}
+  .geo{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.22em;color:var(--on-dark-2);margin-bottom:26px;display:flex;align-items:center;gap:12px;}
+  .geo::before{content:"";width:26px;height:1px;background:var(--on-dark-2);}
+  h1.logo{font-weight:700;font-size:clamp(3.4rem,12vw,9rem);line-height:.92;letter-spacing:-.02em;margin:0;}
+  h1.logo .sea{font-weight:300;}
+  .tagline{font-size:clamp(1.3rem,2.6vw,1.9rem);font-weight:500;margin:22px 0 6px;letter-spacing:-.01em;}
+  .tagline-jp{font-size:clamp(.95rem,1.7vw,1.1rem);color:var(--on-dark-2);font-weight:400;margin:0 0 38px;}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap;}
+  .scroll-cue{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);z-index:2;font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.2em;color:var(--on-dark-2);display:flex;flex-direction:column;align-items:center;gap:8px;}
+  .scroll-cue .line{width:1px;height:34px;background:linear-gradient(180deg,var(--on-dark-2),transparent);animation:cue 2s infinite;}
+  @keyframes cue{0%{opacity:.3;transform:scaleY(.5);transform-origin:top;}50%{opacity:1;transform:scaleY(1);}100%{opacity:.3;transform:scaleY(.5);transform-origin:bottom;}}
+
+  /* ===== SECTION SHELL ===== */
+  section{padding:120px 0;}
+  .alt{background:var(--bg-alt);}
+  .dark{background:var(--black);color:#fff;}
+  .center{text-align:center;}
+  .sec-eyebrow{margin-bottom:22px;}
+  h2.big{font-weight:700;font-size:clamp(2.1rem,5vw,3.8rem);line-height:1.05;letter-spacing:-.025em;margin:0;}
+  h2.big .light{color:var(--ink-3);font-weight:600;}
+  .dark h2.big .light{color:var(--on-dark-2);}
+  .lead{font-size:clamp(1.05rem,1.8vw,1.35rem);color:var(--ink-2);max-width:34ch;line-height:1.5;}
+  .dark .lead{color:var(--on-dark-2);}
+
+  /* WHY */
+  .why-in{max-width:880px;margin:0 auto;text-align:center;}
+  .why-in h2{margin-bottom:26px;}
+  .why-in .lead{margin:0 auto 12px;max-width:46ch;}
+  .why-in .lead.jp{font-size:1.05rem;color:var(--ink-3);}
+  .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:72px;background:var(--hair);border:1px solid var(--hair);border-radius:var(--r);overflow:hidden;}
+  .pillar{background:var(--white);padding:40px 28px;}
+  .alt .pillar{background:var(--bg-alt);}
+  .pillar .n{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-3);letter-spacing:.1em;}
+  .pillar h3{font-weight:600;font-size:18px;margin:14px 0 8px;}
+  .pillar p{font-size:13.5px;color:var(--ink-2);margin:0;line-height:1.55;}
+
+  /* FEATURED PRODUCTS */
+  .prod-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:54px;flex-wrap:wrap;}
+  .prod-head h2{max-width:18ch;}
+  .pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+  .pcard{background:var(--white);border-radius:var(--r);overflow:hidden;border:1px solid rgba(0,0,0,.06);transition:transform .45s var(--ease),box-shadow .45s var(--ease);display:flex;flex-direction:column;}
+  .alt .pcard{background:var(--white);}
+  .pcard:hover{transform:translateY(-8px);box-shadow:0 40px 80px -50px rgba(0,0,0,.45);}
+  .pcard .ph{aspect-ratio:1/1;background:radial-gradient(130% 120% at 50% 18%,#FFFFFF,#ECECEE 60%,#DEDEE1);display:grid;place-items:center;position:relative;overflow:hidden;}
+  .pcard .ph .glyph{color:var(--ink);opacity:.82;transition:transform .6s var(--ease);}
+  .pcard:hover .ph .glyph{transform:scale(1.07) translateY(-4px);}
+  .pcard .ph .glyph svg{width:96px;height:96px;}
+  .pcard .ph .badge{position:absolute;top:16px;left:16px;font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.08em;color:var(--ink);background:rgba(255,255,255,.8);border:1px solid var(--hair);padding:5px 10px;border-radius:980px;}
+  .pcard .body{padding:26px 26px 28px;display:flex;flex-direction:column;flex:1;}
+  .pcard h3{font-weight:600;font-size:20px;letter-spacing:-.01em;margin:0 0 4px;}
+  .pcard .en{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-3);letter-spacing:.04em;margin-bottom:12px;}
+  .pcard .desc{font-size:14px;color:var(--ink-2);margin:0 0 16px;line-height:1.55;flex:1;}
+  .pcard .fit{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-3);padding-top:14px;border-top:1px solid var(--hair);margin-bottom:16px;}
+  .pcard .foot{display:flex;align-items:center;justify-content:space-between;}
+  .pcard .price{font-weight:600;font-size:19px;}
+  .pcard .buy{font-family:"Inter";font-weight:500;font-size:13px;padding:9px 18px;border-radius:980px;background:var(--ink);color:#fff;border:none;cursor:pointer;transition:transform .25s,opacity .25s;}
+  .pcard .buy:hover{transform:translateY(-1px);opacity:.86;}
+
+  /* IG REELS */
+  .reels-head{text-align:center;margin-bottom:18px;}
+  .funnel{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.1em;color:var(--on-dark-2);text-align:center;margin-bottom:48px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap;}
+  .funnel b{color:#fff;font-weight:500;}
+  .reels{display:flex;gap:20px;overflow-x:auto;padding:4px 32px 24px;scroll-snap-type:x mandatory;margin:0 -32px;}
+  .reels::-webkit-scrollbar{height:0;}
+  .reel{flex:0 0 230px;scroll-snap-align:start;cursor:pointer;}
+  .reel .v{aspect-ratio:9/16;border-radius:16px;background:linear-gradient(170deg,#1C1E22,#0A0B0D);border:1px solid var(--dark-hair);position:relative;overflow:hidden;display:flex;align-items:flex-end;transition:transform .4s var(--ease),border-color .4s;}
+  .reel:hover .v{transform:translateY(-6px);border-color:rgba(255,255,255,.3);}
+  .reel .v .play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:54px;height:54px;border-radius:50%;background:rgba(255,255,255,.12);backdrop-filter:blur(4px);display:grid;place-items:center;border:1px solid rgba(255,255,255,.3);transition:background .3s;}
+  .reel:hover .v .play{background:rgba(255,255,255,.22);}
+  .reel .v .play svg{width:18px;height:18px;margin-left:2px;}
+  .reel .v .meta{position:relative;z-index:1;padding:16px;width:100%;background:linear-gradient(180deg,transparent,rgba(0,0,0,.7));}
+  .reel .v .meta .t{font-weight:600;font-size:14px;line-height:1.3;}
+  .reel .v .meta .h{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--on-dark-2);margin-top:6px;letter-spacing:.04em;}
+
+  /* COLLECTIONS */
+  .colls{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--hair);border:1px solid var(--hair);border-radius:var(--r);overflow:hidden;}
+  .coll{background:var(--white);padding:46px 24px 40px;cursor:pointer;transition:background .35s,color .35s;text-align:left;border:none;font-family:inherit;}
+  .coll:hover{background:var(--ink);color:#fff;}
+  .coll .ic{height:38px;margin-bottom:auto;color:inherit;opacity:.9;}
+  .coll .ic svg{width:30px;height:30px;}
+  .coll .label{font-weight:700;font-size:20px;letter-spacing:.04em;margin:34px 0 4px;}
+  .coll .jp{font-size:13px;opacity:.62;}
+  .coll .en{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.06em;opacity:.45;margin-top:3px;}
+
+  /* BEFORE / AFTER */
+  .ba-head{text-align:center;margin-bottom:50px;}
+  .ba{max-width:920px;margin:0 auto;border-radius:var(--r);overflow:hidden;position:relative;aspect-ratio:16/9;user-select:none;box-shadow:0 50px 100px -60px rgba(0,0,0,.5);}
+  .ba .layer{position:absolute;inset:0;display:grid;place-items:center;font-family:"JetBrains Mono",monospace;letter-spacing:.1em;}
+  .ba .after{background:linear-gradient(135deg,#2A2C30,#0E0F11);color:#fff;}
+  .ba .before{background:linear-gradient(135deg,#E8E8EA,#C9CACE);color:var(--ink-2);clip-path:inset(0 50% 0 0);}
+  .ba .tag{position:absolute;top:18px;font-size:11px;padding:6px 12px;border-radius:980px;background:rgba(0,0,0,.5);color:#fff;}
+  .ba .before .tag{left:18px;background:rgba(255,255,255,.7);color:var(--ink);}
+  .ba .after .tag{right:18px;}
+  .ba .lbl{font-size:13px;opacity:.7;}
+  .ba .handle{position:absolute;top:0;bottom:0;left:50%;width:2px;background:#fff;transform:translateX(-50%);z-index:3;box-shadow:0 0 0 1px rgba(0,0,0,.2);}
+  .ba .grip{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:44px;height:44px;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:0 6px 20px -6px rgba(0,0,0,.5);}
+  .ba .grip svg{width:20px;height:20px;color:var(--ink);}
+  .ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;z-index:4;margin:0;}
+  .ba-cap{text-align:center;margin-top:24px;color:var(--ink-2);font-size:14px;}
+
+  /* REVIEWS */
+  .revs{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+  .rev{background:var(--white);border:1px solid rgba(0,0,0,.06);border-radius:var(--r);padding:32px;}
+  .alt .rev{background:var(--white);}
+  .rev .stars{color:var(--ink);font-size:13px;letter-spacing:3px;margin-bottom:16px;}
+  .rev p{font-size:15px;line-height:1.6;margin:0 0 24px;}
+  .rev .who{display:flex;align-items:center;gap:12px;}
+  .rev .av{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#E2E2E5,#C2C3C7);}
+  .rev .who .nm{font-weight:600;font-size:14px;}
+  .rev .who .mo{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-3);}
+
+  /* FAQ */
+  .faq{max-width:780px;margin:0 auto;}
+  .faq-item{border-bottom:1px solid var(--hair);}
+  .faq-q{width:100%;background:none;border:none;cursor:pointer;font-family:inherit;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:28px 4px;text-align:left;font-weight:500;font-size:18px;color:var(--ink);}
+  .faq-q .ico{flex:none;width:22px;height:22px;position:relative;transition:transform .35s var(--ease);}
+  .faq-q .ico::before,.faq-q .ico::after{content:"";position:absolute;background:var(--ink);transition:opacity .3s;}
+  .faq-q .ico::before{top:50%;left:0;right:0;height:1.5px;transform:translateY(-50%);}
+  .faq-q .ico::after{left:50%;top:0;bottom:0;width:1.5px;transform:translateX(-50%);}
+  .faq-item.open .faq-q .ico::after{opacity:0;}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height .4s var(--ease);}
+  .faq-a .inner{padding:0 4px 28px;color:var(--ink-2);font-size:15px;line-height:1.65;max-width:60ch;}
+  .faq-a .en{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--ink-3);margin-top:8px;}
+
+  /* FOOTER */
+  footer{background:var(--black);color:var(--on-dark-2);padding:80px 0 44px;}
+  .foot-top{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap;padding-bottom:54px;border-bottom:1px solid var(--dark-hair);}
+  .foot-brand .logo{color:#fff;font-weight:600;font-size:30px;letter-spacing:.16em;}
+  .foot-brand .tg{color:var(--on-dark-2);font-size:15px;margin-top:8px;}
+  .foot-cols{display:flex;gap:64px;flex-wrap:wrap;}
+  .foot-col h4{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--on-dark-2);margin:0 0 18px;}
+  .foot-col a{display:block;color:#E8E8EA;font-size:14px;margin-bottom:13px;opacity:.78;transition:opacity .2s;}
+  .foot-col a:hover{opacity:1;}
+  .foot-bot{padding-top:30px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center;}
+  .foot-bot .mono{font-size:11px;color:var(--ink-3);letter-spacing:.04em;}
+  .disclaim{font-size:12px;color:var(--ink-3);line-height:1.6;max-width:70ch;margin-top:22px;}
+
+  .reveal{opacity:0;transform:translateY(30px);transition:opacity .9s var(--ease),transform .9s var(--ease);}
+  .reveal.in{opacity:1;transform:none;}
+
+  @media(max-width:980px){
+    .pillars{grid-template-columns:1fr;}
+    .pgrid{grid-template-columns:repeat(2,1fr);}
+    .colls{grid-template-columns:repeat(2,1fr);}
+    .revs{grid-template-columns:1fr;}
+  }
+  @media(max-width:680px){
+    .wrap{padding:0 22px;}
+    .nav-links,.lang{display:none;}
+    .menu-btn{display:block;}
+    section{padding:84px 0;}
+    .pgrid{grid-template-columns:1fr;}
+    .colls{grid-template-columns:1fr;}
+    .reels{padding-left:22px;padding-right:22px;margin:0 -22px;}
+    .prod-head{margin-bottom:36px;}
+  }
+  @media(prefers-reduced-motion:reduce){
+    *{animation:none!important;scroll-behavior:auto!important;}
+    .reveal{opacity:1;transform:none;transition:none;}
+  }
+</style>
+</head>
+<body>
+
+<header class="nav on-dark" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" aria-label="EV SEA">
+      <svg class="hz" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 14c3 0 3-3 6-3s3 3 6 3 3-3 6-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="6" r="2" fill="currentColor"/></svg>
+      EV&nbsp;SEA
+    </a>
+    <nav class="nav-links" aria-label="メインメニュー">
+      <a href="#shop">Shop</a>
+      <a href="#collections">Collections</a>
+      <a href="#reels">Reels</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Language">
+        <a href="#" class="on" lang="ja"><span>JA</span></a><a href="/en/" lang="en" hreflang="en">EN</a>
+      </div>
+      <button class="menu-btn" id="menu" aria-label="メニュー"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-scene" aria-hidden="true">
+    <div class="sky"></div>
+    <div class="sea"></div>
+    <div class="horizon"></div>
+    <div class="road"></div>
+    <div class="car"><svg width="70" height="26" viewBox="0 0 70 26" fill="none"><path d="M6 18c0-4 6-7 12-8 4-4 10-6 18-6s12 3 16 7c6 1 12 3 12 7v2H6v-2Z" fill="rgba(255,255,255,.16)"/><circle cx="20" cy="20" r="4" fill="rgba(255,255,255,.3)"/><circle cx="52" cy="20" r="4" fill="rgba(255,255,255,.3)"/></svg></div>
+    <div class="vig"></div>
+  </div>
+  <div class="wrap hero-in">
+    <div class="geo">OKINAWA · 26.3°N · FOR EV LIFE</div>
+    <h1 class="logo">EV <span class="sea">SEA</span></h1>
+    <p class="tagline">for EV Life.</p>
+    <p class="tagline-jp jp">オーナー目線で選んだEVアクセサリー。</p>
+    <div class="hero-cta">
+      <a class="btn btn-onDark" href="#shop">Shop Now <span class="arr">→</span></a>
+      <a class="btn btn-onDark ghost" href="#reels">Watch on Instagram</a>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"><span>SCROLL</span><span class="line"></span></div>
+</section>
+
+<!-- WHY -->
+<section id="why">
+  <div class="wrap why-in reveal">
+    <div class="eyebrow sec-eyebrow">Why EV SEA</div>
+    <h2 class="big">Not just accessories.<br><span class="light">Built for EV Life.</span></h2>
+    <p class="lead" style="margin-top:30px;">We select products that solve real problems for EV owners.</p>
+    <p class="lead jp">実際のオーナー目線で、本当に使うものだけを厳選。</p>
+    <div class="pillars">
+      <div class="pillar"><div class="n">01</div><h3 class="jp">オーナー目線</h3><p class="jp">自分が毎日使って、本当に良かったものだけを並べています。</p></div>
+      <div class="pillar"><div class="n">02</div><h3 class="jp">EVライフ全体</h3><p class="jp">アクセサリーから車中泊・EV旅まで。乗る時間そのものを豊かに。</p></div>
+      <div class="pillar"><div class="n">03</div><h3 class="jp">沖縄から</h3><p class="jp">海沿いを走るEVライフを起点に、長く使えるものを届けます。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section class="alt" id="shop">
+  <div class="wrap reveal">
+    <div class="prod-head">
+      <div><div class="eyebrow" style="margin-bottom:18px;">Featured</div><h2 class="big">本当に使う、<br><span class="light">8つだけ。</span></h2></div>
+      <p class="lead" style="max-width:30ch;font-size:1.05rem;">数を増やすより、選び抜く。オーナーが実際に使い続けているアイテムだけ。</p>
+    </div>
+    <div class="pgrid" id="pgrid"></div>
+  </div>
+</section>
+
+<!-- IG REELS -->
+<section class="dark" id="reels">
+  <div class="wrap reveal">
+    <div class="reels-head">
+      <div class="eyebrow sec-eyebrow" style="color:var(--on-dark-2)">Instagram</div>
+      <h2 class="big">使い方は、<span class="light">30秒で。</span></h2>
+    </div>
+    <div class="funnel"><span>Reels で見る</span><b>→</b><span>ev.nice.okinawa</span><b>→</b><span>商品ページ</span><b>→</b><b>購入</b></div>
+  </div>
+  <div class="wrap" style="padding-right:0;">
+    <div class="reels" id="reels-track"></div>
+  </div>
+  <div class="wrap center" style="margin-top:20px;">
+    <a class="btn btn-onDark" href="#" target="_blank" rel="noopener">Follow EV SEA <span class="arr">→</span></a>
+  </div>
+</section>
+
+<!-- COLLECTIONS -->
+<section id="collections">
+  <div class="wrap reveal">
+    <div class="center" style="margin-bottom:54px;">
+      <div class="eyebrow sec-eyebrow">Collections</div>
+      <h2 class="big">5つの<span class="light">EVライフ。</span></h2>
+    </div>
+    <div class="colls">
+      <button class="coll"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div class="label">DAILY</div><div class="jp">毎日の必需品</div><div class="en">Everyday essentials</div></button>
+      <button class="coll"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2 5 14h6l-1 8 9-12h-6l1-8Z"/></svg></span><div class="label">CHARGE</div><div class="jp">充電まわり</div><div class="en">Charging</div></button>
+      <button class="coll"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2 4 6v6c0 5 8 8 8 8s8-3 8-8V6l-8-4Z"/></svg></span><div class="label">PROTECT</div><div class="jp">保護・メンテ</div><div class="en">Protection &amp; care</div></button>
+      <button class="coll"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 20 12 4l9 16M7 20l5-9 5 9"/></svg></span><div class="label">CAMP</div><div class="jp">旅と車中泊</div><div class="en">Travel &amp; camping</div></button>
+      <button class="coll"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.5"/></svg></span><div class="label">STYLE</div><div class="jp">魅せる</div><div class="en">Looks &amp; aesthetics</div></button>
+    </div>
+  </div>
+</section>
+
+<!-- BEFORE / AFTER -->
+<section class="alt" id="ba">
+  <div class="wrap reveal">
+    <div class="ba-head">
+      <div class="eyebrow sec-eyebrow">Before / After</div>
+      <h2 class="big">付けると、<span class="light">こう変わる。</span></h2>
+    </div>
+    <div class="ba" id="ba">
+      <div class="layer after"><span class="tag">AFTER</span><span class="lbl">WITH EV SEA</span></div>
+      <div class="layer before" id="baBefore"><span class="tag">BEFORE</span><span class="lbl">WITHOUT</span></div>
+      <div class="handle" id="baHandle"><span class="grip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 7 4 12l5 5M15 7l5 5-5 5"/></svg></span></div>
+      <input type="range" min="0" max="100" value="50" id="baRange" aria-label="ビフォー・アフターの比較" />
+    </div>
+    <p class="ba-cap jp">ハンドルをドラッグ。アンビエントライト導入前 / 後のイメージです。</p>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="wrap reveal">
+    <div class="center" style="margin-bottom:54px;">
+      <div class="eyebrow sec-eyebrow">Owner Reviews</div>
+      <h2 class="big">同じEVオーナーの、<span class="light">声。</span></h2>
+    </div>
+    <div class="revs">
+      <div class="rev"><div class="stars">★★★★★</div><p class="jp">説明が丁寧で、届いてすぐ取り付けられました。車内の雰囲気が一気に変わって満足です。</p><div class="who"><div class="av"></div><div><div class="nm">K. Tamaki</div><div class="mo">Model Y · 那覇</div></div></div></div>
+      <div class="rev"><div class="stars">★★★★★</div><p class="jp">車中泊で沖縄一周しました。収納とマットがちょうどよくて、もっと早く買えばよかった。</p><div class="who"><div class="av"></div><div><div class="nm">R. Arakaki</div><div class="mo">Model 3 · 名護</div></div></div></div>
+      <div class="rev"><div class="stars">★★★★★</div><p class="jp">EV初心者でも分かるように選んでくれている感じ。最初に揃えるならここで間違いないです。</p><div class="who"><div class="av"></div><div><div class="nm">M. Higa</div><div class="mo">Model Y · 浦添</div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="alt" id="faq">
+  <div class="wrap reveal">
+    <div class="center" style="margin-bottom:50px;">
+      <div class="eyebrow sec-eyebrow">FAQ</div>
+      <h2 class="big">よくある<span class="light">質問。</span></h2>
+    </div>
+    <div class="faq" id="faq-list">
+      <div class="faq-item"><button class="faq-q jp">適合車種について<span class="ico"></span></button><div class="faq-a"><div class="inner jp">主に Tesla Model 3 / Model Y に対応した商品を扱っています。各商品ページに適合車種・年式を記載しています。<div class="en">Compatibility is listed on each product page.</div></div></div></div>
+      <div class="faq-item"><button class="faq-q jp">配送について<span class="ico"></span></button><div class="faq-a"><div class="inner jp">国内在庫品は最短48時間以内に発送。受注・オーダーメイド品は産地直送のため納期が異なります。<div class="en">In-stock items ship within 48h; made-to-order varies.</div></div></div></div>
+      <div class="faq-item"><button class="faq-q jp">返品・交換<span class="ico"></span></button><div class="faq-a"><div class="inner jp">未使用品は到着後7日以内に対応します。適合違いの場合も交換いたします。<div class="en">Returns accepted within 7 days for unused items.</div></div></div></div>
+      <div class="faq-item"><button class="faq-q jp">取り付けについて<span class="ico"></span></button><div class="faq-a"><div class="inner jp">ほとんどが工具不要・数分で完了します。取付動画は Instagram のリールで公開中。<div class="en">Most items install in minutes — see our Reels.</div></div></div></div>
+      <div class="faq-item"><button class="faq-q jp">保証について<span class="ico"></span></button><div class="faq-a"><div class="inner jp">初期不良は無償交換。LINEからいつでも日本語でご相談いただけます。<div class="en">Defects replaced free; Japanese support via LINE.</div></div></div></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <div class="logo">EV&nbsp;SEA</div>
+        <div class="tg">for EV Life.</div>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col"><h4>Shop</h4><a href="#shop">Featured</a><a href="#collections">Collections</a><a href="#reels">Reels</a></div>
+        <div class="foot-col"><h4>Info</h4><a href="#">Shipping</a><a href="#">Returns</a><a href="#faq">FAQ</a></div>
+        <div class="foot-col"><h4>Connect</h4><a href="#" target="_blank" rel="noopener">Instagram</a><a href="#">LINE</a><a href="#">Contact</a><a href="/en/" hreflang="en">English</a></div>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <span class="mono">© 2026 EV SEA · ev.nice.okinawa</span>
+      <span class="mono">Privacy · Shipping Policy</span>
+    </div>
+    <p class="disclaim">EV SEA is an independent aftermarket accessories store and is not affiliated with or endorsed by Tesla, Inc. Tesla, Model 3 and Model Y are trademarks of Tesla, Inc.／EV SEA はテスラ車に対応する社外アクセサリーを扱う独立系ショップであり、Tesla, Inc. とは提携関係にありません。掲載の価格・在庫はデモ用サンプルです。</p>
+  </div>
+</footer>
+
+<script>
+  // ---- products (max 8) ----
+  var GLY={
+    box:'<path d="M3 8 12 3l9 5v8l-9 5-9-5V8Z"/><path d="M3 8l9 5 9-5M12 13v9"/>',
+    screen:'<rect x="3" y="5" width="18" height="13" rx="1.5"/><path d="M9 21h6M12 18v3"/>',
+    trunk:'<rect x="3" y="7" width="18" height="12" rx="2"/><path d="M3 12h18M8 7V5h8v2"/>',
+    wheel:'<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M12 3v4M12 17v4M3 12h4M17 12h4"/>',
+    cable:'<path d="M7 4v6a5 5 0 0 0 10 0V4M5 4h4M15 4h4M12 15v5"/>',
+    camp:'<path d="M3 20 12 4l9 16M8 20l4-7 4 7"/>'
+  };
+  var PRODUCTS=[
+    {n:'センターコンソール オーガナイザー',en:'Center Console Organizer',g:'box',desc:'散らかりがちな小物を、すっきり一か所に。',fit:'MODEL 3 / Y',p:3800,badge:'DAILY'},
+    {n:'スクリーンプロテクター',en:'Screen Protector',g:'screen',desc:'9H強化ガラスで指紋と傷から守る。',fit:'MODEL 3 / Y',p:6800,badge:'PROTECT'},
+    {n:'トランク収納ボックス',en:'Trunk Storage Box',g:'trunk',desc:'荷室を仕切って、買い物も旅も快適に。',fit:'MODEL Y',p:5200,badge:'DAILY'},
+    {n:'ホイールカバー',en:'Wheel Cover',g:'wheel',desc:'純正ホイールの印象を、静かに格上げ。',fit:'MODEL 3 19"',p:9800,badge:'STYLE'},
+    {n:'充電ケーブルホルダー',en:'Charging Cable Holder',g:'cable',desc:'ケーブルを壁掛けで、ガレージをきれいに。',fit:'NACS / J1772',p:4200,badge:'CHARGE'},
+    {n:'車中泊マットレス',en:'Car Camping Mattress',g:'camp',desc:'フラットな寝床で、EV旅をもう一泊。',fit:'MODEL Y',p:14800,badge:'CAMP'}
+  ];
+  var yen=function(v){return '¥'+v.toLocaleString('ja-JP');};
+  var pg=document.getElementById('pgrid');
+  PRODUCTS.forEach(function(p){
+    var c=document.createElement('article');c.className='pcard';
+    c.innerHTML='<div class="ph"><span class="badge">'+p.badge+'</span><span class="glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">'+GLY[p.g]+'</svg></span></div>'+
+      '<div class="body"><h3 class="jp">'+p.n+'</h3><div class="en">'+p.en+'</div><p class="desc jp">'+p.desc+'</p>'+
+      '<div class="fit">FITS · '+p.fit+'</div>'+
+      '<div class="foot"><span class="price">'+yen(p.p)+'</span><button class="buy">購入 / Buy</button></div></div>';
+    pg.appendChild(c);
+  });
+
+  // ---- reels ----
+  var REELS=[
+    {t:'5 Best Tesla Accessories',h:'#tesla #modely'},
+    {t:'Things I Wish I Bought Earlier',h:'#evlife'},
+    {t:'Hidden Storage Tricks',h:'#model3'},
+    {t:'Tesla Camping Setup',h:'#車中泊 #沖縄'},
+    {t:'30秒でわかる便利アイテム',h:'#evアクセサリー'}
+  ];
+  var rt=document.getElementById('reels-track');
+  REELS.forEach(function(r){
+    var d=document.createElement('div');d.className='reel';
+    d.innerHTML='<div class="v"><span class="play"><svg viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span><div class="meta"><div class="t">'+r.t+'</div><div class="h">'+r.h+'</div></div></div>';
+    rt.appendChild(d);
+  });
+
+  // ---- before/after slider ----
+  var range=document.getElementById('baRange'),before=document.getElementById('baBefore'),handle=document.getElementById('baHandle');
+  function setBA(v){before.style.clipPath='inset(0 '+(100-v)+'% 0 0)';handle.style.left=v+'%';}
+  range.addEventListener('input',function(){setBA(this.value);});
+  setBA(50);
+
+  // ---- FAQ ----
+  document.getElementById('faq-list').addEventListener('click',function(e){
+    var b=e.target.closest('.faq-q');if(!b)return;
+    var item=b.parentElement,a=item.querySelector('.faq-a'),open=item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(function(it){it.classList.remove('open');it.querySelector('.faq-a').style.maxHeight=null;});
+    if(!open){item.classList.add('open');a.style.maxHeight=a.scrollHeight+'px';}
+  });
+
+  // ---- nav theme on scroll ----
+  var nav=document.getElementById('nav'),hero=document.getElementById('hero');
+  var navIO=new IntersectionObserver(function(es){es.forEach(function(en){nav.classList.toggle('on-dark',en.isIntersecting);});},{rootMargin:'-58px 0px 0px 0px',threshold:0});
+  navIO.observe(hero);
+
+  // ---- reveal ----
+  var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}});},{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+
+  document.getElementById('menu').addEventListener('click',function(){document.getElementById('shop').scrollIntoView({behavior:'smooth'});});
+</script>
+</body>
+</html>
